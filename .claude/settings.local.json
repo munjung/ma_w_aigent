@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn test *)",
+      "Read(//usr/lib/**)",
+      "Read(//opt/**)",
+      "Bash(export JAVA_HOME=\"/mnt/c/Program Files/Java/jdk-17\")",
+      "Bash(export PATH=\"$JAVA_HOME/bin:$PATH\")",
+      "Bash(java -version)",
+      "Bash(\"/mnt/c/Program Files/Java/jdk-17/bin/java\" -version)",
+      "Bash(env)",
+      "Bash(apt list *)",
+      "Bash(dpkg -l)",
+      "Bash(sudo apt-get *)",
+      "Bash(export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64)",
+      "Bash(mvn install *)"
+    ]
+  }
+}
